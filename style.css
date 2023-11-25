@@ -1,0 +1,11 @@
+.download-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
