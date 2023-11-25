@@ -19,11 +19,13 @@ body, html {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block; /* Align the button correctly */
-    margin-top: 20px;
+    display: block; /* Changed to block to appear below the text */
+    margin-top: 20px; /* Space between text and button */
+    margin-left: auto; /* Center the button horizontally */
+    margin-right: auto; /* Center the button horizontally */
 }
 
 h1 {
     color: white;
-    margin: 0;
+    margin-bottom: 20px; /* Space between heading and button */
 }
