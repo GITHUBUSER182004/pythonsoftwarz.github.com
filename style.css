@@ -6,6 +6,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #56CCF2, #2F80ED); /* Blue gradient background */
+    font-family: Arial, sans-serif;
 }
 
 .content {
@@ -23,6 +24,6 @@ body, html {
 }
 
 h1 {
-    font-family: Arial, sans-serif;
     color: white;
+    margin: 0;
 }
