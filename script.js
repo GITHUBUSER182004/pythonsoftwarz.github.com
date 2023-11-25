@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const repoName = "your-username/your-repo"; // Replace with your GitHub username and repo
+    const repoName = "GITHUBUSER182004/Python-Softwares"; // Replace with your GitHub username and repo
     const releasesDiv = document.getElementById('releases');
 
-    fetch(`https://api.github.com/repos/${repoName}/releases`)
+    fetch(`https://api.github.com/repos/$Python-Softwares}/releases`)
         .then(response => response.json())
         .then(releases => {
             releases.forEach(release => {
