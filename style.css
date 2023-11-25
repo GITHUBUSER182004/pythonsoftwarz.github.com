@@ -1,3 +1,17 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.content {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.release {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
 body, html {
     margin: 0;
     padding: 0;
