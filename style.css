@@ -1,11 +1,28 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #56CCF2, #2F80ED); /* Blue gradient background */
+}
+
+.content {
+    text-align: center;
+}
+
 .download-button {
     background-color: green;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block; /* Align the button correctly */
+    margin-top: 20px;
 }
 
 h1 {
     font-family: Arial, sans-serif;
+    color: white;
 }
