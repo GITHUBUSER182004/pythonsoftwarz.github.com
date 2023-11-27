@@ -6,6 +6,6 @@ window.onload = function() {
         setTimeout(() => {
             release.style.opacity = 1;
         }, delay);
-        delay += 500; // Increase delay for each release
+        delay += 1000; // Increase delay for each release
     });
 };
