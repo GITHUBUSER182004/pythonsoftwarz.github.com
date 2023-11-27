@@ -28,11 +28,11 @@ body, html {
 }
 
 .download-button {
-    background-color: green;
+    background-color: blue;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
     display: block; /* Changed to block to appear below the text */
     margin-top: 20px; /* Space between text and button */
     margin-left: auto; /* Center the button horizontally */
