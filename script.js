@@ -1,11 +1,11 @@
 window.onload = function() {
     const releases = document.querySelectorAll('.release');
-    let delay = 500; // Start delay after the initial page load
+    let delay = 300; // Start delay after the initial page load
 
     releases.forEach(release => {
         setTimeout(() => {
             release.style.opacity = 1;
         }, delay);
-        delay += 300; // Increase delay for each release
+        delay += 100; // Increase delay for each release
     });
 };
